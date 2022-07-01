@@ -1,0 +1,11 @@
+.App-logo {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: 40px;
+}
+
+.content,
+.form-check {
+  text-align: center;
+}
