@@ -1,11 +1,13 @@
 import axios from "axios";
 import React, { useState } from "react";
+import Results from "./Results";
 
 export default function SearchForm() {
   let [word, setWord] = useState("");
+  let [results, setResults] = useState(null);
 
   function handleResponse(event) {
-    console.log(event);
+    setResults(event.data);
   }
 
   function handleSubmit(event) {
@@ -28,6 +30,7 @@ export default function SearchForm() {
           onChange={lookForWord}
         />
       </form>
+      <Results result={results} />
     </div>
   );
 }
