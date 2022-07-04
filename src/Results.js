@@ -7,8 +7,11 @@ export default function Results(props) {
       <div className="results">
         <h2>{props.result[0].word}</h2>
         {props.result[0].meanings.map(function (meaning, index) {
-          console.log(meaning);
-          return <Definitions meaning={meaning} />;
+          return (
+            <div key={index}>
+              <Definitions meaning={meaning} />
+            </div>
+          );
         })}
       </div>
     );
