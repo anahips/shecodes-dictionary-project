@@ -7,7 +7,7 @@ export default function SearchForm() {
   let [results, setResults] = useState(null);
 
   function handleResponse(event) {
-    setResults(event.data);
+    setResults(event.data[0]);
   }
 
   function handleSubmit(event) {
