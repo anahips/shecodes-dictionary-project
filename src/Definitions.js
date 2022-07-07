@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function Definitions(props) {
-  console.log(props.meaning);
   return (
     <div className="definitions">
       <h4>{props.meaning.partOfSpeech}</h4>
