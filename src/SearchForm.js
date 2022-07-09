@@ -23,13 +23,15 @@ export default function SearchForm() {
 
   return (
     <div className="searchForm">
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          placeholder="Type a word you want to search"
-          onChange={lookForWord}
-        />
-      </form>
+      <section>
+        <form onSubmit={handleSubmit}>
+          <input
+            type="text"
+            placeholder="Type a word you want to search"
+            onChange={lookForWord}
+          />
+        </form>
+      </section>
       <Results result={results} />
     </div>
   );

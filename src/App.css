@@ -2,3 +2,11 @@ h1 {
   text-align: center;
   margin-top: 20px;
 }
+
+.searchForm section {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
