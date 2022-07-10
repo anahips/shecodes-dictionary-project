@@ -1,0 +1,9 @@
+.phonetics i {
+  color: rgb(140, 103, 176);
+  transition: all 150ms ease-in-out;
+  padding-right: 8px;
+}
+
+.phonetics i:hover {
+  color: green;
+}

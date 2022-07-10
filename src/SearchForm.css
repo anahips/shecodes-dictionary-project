@@ -1,0 +1,20 @@
+.searchForm section {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+  margin: 10px;
+}
+
+.searchForm input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  outline-color: rgb(140, 103, 176);
+}
+
+.searchForm h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}

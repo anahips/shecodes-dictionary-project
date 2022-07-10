@@ -1,0 +1,15 @@
+.definitions h4 {
+  line-height: 1.5;
+}
+
+.definitions .definition {
+  line-height: 1.5;
+}
+
+.definitions .example {
+  font-size: 13px;
+  opacity: 0.8;
+  font-style: italic;
+  line-height: 2;
+  margin-bottom: 10px;
+}
