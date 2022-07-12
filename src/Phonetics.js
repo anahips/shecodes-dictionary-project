@@ -5,7 +5,7 @@ export default function Phonetics(props) {
   return (
     <div className="phonetics">
       <a href={props.phonetics.audio} target="_blank" rel="noreferrer">
-        <i class="fa-solid fa-headphones fa-lg"></i>
+        <i className="fa-solid fa-headphones fa-lg"></i>
       </a>
       <span>{props.phonetics.text}</span>
     </div>
