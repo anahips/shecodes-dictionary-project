@@ -1,11 +1,23 @@
 h1 {
   text-align: center;
-  margin: 50px 0 20px 0;
+  padding: 50px 0 20px 0;
   text-transform: uppercase;
   letter-spacing: 8px;
+  color: white;
 }
 
 .App {
   max-width: 960px;
   margin: 0 auto;
+}
+
+.App footer {
+  text-align: center;
+  padding: 20px 0 50px 0;
+  font-size: 11px;
+  color: white;
+}
+
+.App a {
+  text-decoration: none;
 }
